@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "code": 0,
+    "spanid": "041c6184f5801282",
+    "traceid": "ac1e638e5d3492e93659c0bd00000286"
+  },
+  "data": {
+    "datasources": [
+      {
+        "type": "MYSQL",
+        "name": "订单系统数据库",
+        "desc": "订单系统数据库，包含多个订单相关schema",
+        "datasourceId": 123,
+        "databases": [
+          {
+            "dbGid": 123,
+            "dbName": "order_db_dev"
+          },
+          {
+            "dbGid": 156,
+            "dbName": "order_db_prod"
+          }
+        ]
+      },
+      {
+        "type": "MYSQL",
+        "name": "订单系统数据库2",
+        "desc": "订单系统数据库，包含多个订单相关schema",
+        "datasourceId": 234,
+        "databases": [
+          {
+            "dbGid": 223,
+            "dbName": "order_db_dev"
+          }
+        ]
+      }
+    ]
+  }
+}

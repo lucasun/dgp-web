@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "code": 0,
+    "spanid": "041c6184f5801282",
+    "traceid": "ac1e638e5d3492e93659c0bd00000286"
+  },
+  "data": {
+    "datasources": [
+      {
+        "name": "数据源名",
+        "datasourceId": 0,
+        "databases": [
+          {
+            "dbGid": 0,
+            "dbName": "库名",
+            "tables": [
+              {
+                "tableGid": 0,
+                "tableName": "订单表",
+                "comment": "",
+                "columns": [
+                  {
+                    "columnGid": 321731632,
+                    "columnName": "列名",
+                    "comment": "",
+                    "desc": ""
+                  },
+                  {
+                    "columnGid": 321731632,
+                    "columnName": "列名",
+                    "comment": "",
+                    "desc": ""
+                  },
+                  {
+                    "columnGid": 321731632,
+                    "columnName": "列名",
+                    "comment": "",
+                    "desc": ""
+                  },
+                  {
+                    "columnGid": 321731632,
+                    "columnName": "列名",
+                    "comment": "",
+                    "desc": ""
+                  }
+                ]
+              },
+              {
+                "tableGid": 0,
+                "tableName": "订单表",
+                "comment": "",
+                "columns": [
+                  {
+                    "columnGid": 321731632,
+                    "columnName": "列名",
+                    "comment": "",
+                    "desc": ""
+                  }
+                ]
+              },
+              {
+                "tableGid": 0,
+                "tableName": "订单表",
+                "comment": "",
+                "columns": [
+                  {
+                    "columnGid": 321731632,
+                    "columnName": "列名",
+                    "comment": "",
+                    "desc": ""
+                  }
+                ]
+              },
+              {
+                "tableGid": 0,
+                "tableName": "订单表",
+                "comment": "",
+                "columns": [
+                  {
+                    "columnGid": 321731632,
+                    "columnName": "列名",
+                    "comment": "",
+                    "desc": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

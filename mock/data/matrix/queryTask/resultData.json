@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "code": 0,
+    "spanid": "041c6184f5801282",
+    "traceid": "ac1e638e5d3492e93659c0bd00000286"
+  },
+  "data": {
+    "pagedResult": {
+      "columnNames": [
+        "id",
+        "name",
+        "city",
+        "测试"
+      ],
+      "data": [
+        {
+          "id": 1,
+          "name": "zhangsan",
+          "city": "Beijing",
+          "测试": "测试测试"
+        },
+        {
+          "id": 2,
+          "name": "lisi",
+          "city": "Shanghai"
+        },
+        {
+          "id": 3,
+          "name": "wangwu",
+          "city": "Tianjin"
+        },
+        {
+          "id": 4,
+          "name": "Jack",
+          "city": "NEW YORK"
+        },
+        {
+          "id": 5,
+          "name": "Roes",
+          "city": "NEW YORK"
+        }
+      ],
+      "page": 1,
+      "pageSize": 5,
+      "totalItems": 100
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "data": {
+    "columns": [
+      {
+        "columnGid": 27212109,
+        "columnName": "id",
+        "comment": "主键自增"
+      },
+      {
+        "columnGid": 27213109,
+        "columnName": "data_topic_id",
+        "comment": "数据主题id"
+      },
+      {
+        "columnGid": 27214109,
+        "columnName": "data_target_id",
+        "comment": "标数据表id"
+      },
+      {
+        "columnGid": 27215109,
+        "columnName": "data_dimension_id",
+        "comment": "维度id"
+      },
+      {
+        "columnGid": 27216109,
+        "columnName": "dimension_name",
+        "comment": "数据维度名称"
+      },
+      {
+        "columnGid": 27217109,
+        "columnName": "dimension_name_cn",
+        "comment": "数据维度名称中文描述"
+      },
+      {
+        "columnGid": 27218109,
+        "columnName": "create_time",
+        "comment": "创建时间"
+      },
+      {
+        "columnGid": 27219109,
+        "columnName": "update_time",
+        "comment": "更新时间"
+      },
+      {
+        "columnGid": 27220109,
+        "columnName": "a_status",
+        "comment": "状态：0:不可用 1:可用"
+      }
+    ]
+  },
+  "meta": {
+    "code": 0,
+    "spanid": "00205001195afd40",
+    "traceid": "0a6050115d9175a1f3cf77ea00081186"
+  }
+}

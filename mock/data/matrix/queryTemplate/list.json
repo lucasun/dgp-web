@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "code": 0,
+    "spanid": "8c001838cef5367b",
+    "traceid": "ac181a3a5d679ef91a59687b00000286"
+  },
+  "data": {
+    "list": [
+      {
+        "createTime": 1567071390000,
+        "creator": {
+          "userGid": 4001,
+          "userName": "zhangsan",
+          "cnName": "张三",
+          "enName": "Mike",
+          "nickName": "小张"
+        },
+        "operationAuth": {
+          "canEdit": true,
+          "canExecute": true,
+          "canShare": true,
+          "canDelete": true
+        },
+        "datasourceId": 2,
+        "dbType": "MYSQL",
+        "gid": 150001018,
+        "id": 1,
+        "sql": "select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day",
+        "templateDesc": "新的模板描述",
+        "templateName": "新的模板测试名",
+        "updateTime": 1567071508000,
+        "variables": [
+          {
+            "name": "year_var",
+            "value": "2019"
+          },
+          {
+            "name": "month_var"
+          },
+          {
+            "name": "day"
+          }
+        ]
+      },
+      {
+        "createTime": 1567071390000,
+        "creator": {
+          "userGid": 4001,
+          "userName": "zhangsan",
+          "cnName": "张三",
+          "enName": "Mike",
+          "nickName": "小张"
+        },
+        "operationAuth": {
+          "canEdit": true,
+          "canExecute": true,
+          "canShare": true,
+          "canDelete": true
+        },
+        "datasourceId": 2,
+        "dbType": "MYSQL",
+        "gid": 150001018,
+        "id": 1,
+        "sql": "select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}",
+        "templateDesc": "新的模板描述",
+        "templateName": "新的模板测试名",
+        "updateTime": 1567071508000,
+        "variables": [
+          {
+            "name": "year_var",
+            "value": "2019"
+          },
+          {
+            "name": "month_var"
+          },
+          {
+            "name": "day"
+          }
+        ]
+      },
+      {
+        "createTime": 1567071390000,
+        "creator": {
+          "userGid": 4001,
+          "userName": "zhangsan",
+          "cnName": "张三",
+          "enName": "Mike",
+          "nickName": "小张"
+        },
+        "operationAuth": {
+          "canEdit": true,
+          "canExecute": true,
+          "canShare": true,
+          "canDelete": true
+        },
+        "datasourceId": 2,
+        "dbType": "MYSQL",
+        "gid": 150001018,
+        "id": 1,
+        "sql": "select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}",
+        "templateDesc": "新的模板描述",
+        "templateName": "新的模板测试名",
+        "updateTime": 1567071508000,
+        "variables": [
+          {
+            "name": "year_var",
+            "value": "2019"
+          },
+          {
+            "name": "month_var"
+          },
+          {
+            "name": "day"
+          }
+        ]
+      },
+      {
+        "createTime": 1567071390000,
+        "creator": {
+          "userGid": 4001,
+          "userName": "zhangsan",
+          "cnName": "张三",
+          "enName": "Mike",
+          "nickName": "小张"
+        },
+        "operationAuth": {
+          "canEdit": true,
+          "canExecute": true,
+          "canShare": true,
+          "canDelete": true
+        },
+        "datasourceId": 2,
+        "dbType": "MYSQL",
+        "gid": 150001018,
+        "id": 1,
+        "sql": "select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${da",
+        "templateDesc": "新的模板描述",
+        "templateName": "新的模板测试名",
+        "updateTime": 1567071508000,
+        "variables": [
+          {
+            "name": "year_var",
+            "value": "2019"
+          },
+          {
+            "name": "month_var"
+          },
+          {
+            "name": "day"
+          }
+        ]
+      },
+      {
+        "createTime": 1567071390000,
+        "creator": {
+          "userGid": 4001,
+          "userName": "zhangsan",
+          "cnName": "张三",
+          "enName": "Mike",
+          "nickName": "小张"
+        },
+        "operationAuth": {
+          "canEdit": true,
+          "canExecute": true,
+          "canShare": true,
+          "canDelete": true
+        },
+        "datasourceId": 2,
+        "dbType": "MYSQL",
+        "gid": 150001018,
+        "id": 1,
+        "sql": "select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}select * from order_table where year=${year_var} and month=${month_var} and day=${day}",
+        "templateDesc": "新的模板描述",
+        "templateName": "新的模板测试名",
+        "updateTime": 1567071508000,
+        "variables": [
+          {
+            "name": "year_var",
+            "value": "2019"
+          },
+          {
+            "name": "month_var"
+          },
+          {
+            "name": "day"
+          }
+        ]
+      }
+    ],
+    "page": 1,
+    "pageSize": 10,
+    "totalItems": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "code": 0,
+    "spanid": "041c6184f5801282",
+    "traceid": "ac1e638e5d3492e93659c0bd00000286"
+  },
+  "data": {
+    "columns": [
+      {
+        "columnGid": 321731631,
+        "columnName": "id",
+        "comment": "主键自增",
+        "desc": "自增的主键"
+      },
+      {
+        "columnGid": 321731632,
+        "columnName": "create_time",
+        "comment": "创建时间",
+        "desc": ""
+      }
+    ]
+  }
+}
