@@ -71,9 +71,9 @@ const IS_PROD = ['production', 'prod'].includes(process.env.NODE_ENV)
 
 const webpackConfig = {
   pages,
-  publicPath: '/dgp/',
+  publicPath: '/',
   outputDir: 'dist',
-  // assetsDir: 'static',
+  assetsDir: 'static',
   productionSourceMap: !IS_PROD, // 生产环境的 source map
   css: {
     loaderOptions: {
@@ -96,7 +96,8 @@ const webpackConfig = {
     disableHostCheck: true,
     proxy: isMock ? '' : proxyObj,
     // eslint-disable-next-line global-require
-    before: isMock ? require('./mock') : () => { },
+    // before: isMock ? require('./mock-manual') : () => { },
+    before: require('./mock/mock-server.js'),
   },
 
   // 构建时开启多进程处理 babel 编译
@@ -136,6 +137,22 @@ const webpackConfig = {
       .set('api', resolve('src/api'))
       .set('views', resolve('src/views'))
       .set('components', resolve('src/components'))
+    // set svg-sprite-loader
+    config.module
+      .rule('svg')
+      .exclude.add(resolve('src/icons'))
+      .end()
+    config.module
+      .rule('icons')
+      .test(/\.svg$/)
+      .include.add(resolve('src/icons'))
+      .end()
+      .use('svg-sprite-loader')
+      .loader('svg-sprite-loader')
+      .options({
+        symbolId: 'icon-[name]',
+      })
+      .end()
 
     // set preserveWhitespace
     config.module
